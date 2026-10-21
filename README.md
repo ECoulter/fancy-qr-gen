@@ -7,6 +7,8 @@ colors and logo placement. Basically some bits to make it easy to clone and gene
 
 Mix of Human and AI development, docs are fully hand-crafted by a human.
 
+The example [OCticon](https://commons.wikimedia.org/wiki/File:Octicons-mark-github.svg) is sourced from Wikimedia.
+
 # Setup
 
 Right now this just requires two libraries - [pillow](https://pypi.org/project/pillow/) for image generation and the [python-qrcode](https://github.com/lincolnloop/python-qrcode) library.
