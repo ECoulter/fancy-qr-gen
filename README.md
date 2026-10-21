@@ -1,5 +1,7 @@
 # Fancy-QR-Gen
 
+![Example-QR](./Example_QR.svg)
+
 This is just a simple python script that uses the fantastic qr-code library with some flags to control
 colors and logo placement. Basically some bits to make it easy to clone and generate your own pretty QR codes.
 
