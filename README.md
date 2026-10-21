@@ -9,7 +9,7 @@ Mix of Human and AI development, docs are fully hand-crafted by a human.
 
 # Setup
 
-Right now this just requires two libraries - pillow for image generation and the qrcode library.
+Right now this just requires two libraries - [pillow](https://pypi.org/project/pillow/) for image generation and the [python-qrcode](https://github.com/lincolnloop/python-qrcode) library.
 Versions are probably flexible, but I used `pip freeze` to generate `requirements.txt`.
 
 * `git clone https://github.com/ECoulter/fancy-qr-gen`
