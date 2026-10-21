@@ -28,13 +28,17 @@ These do work in "dark mode" with a dark background and light qr-color.
 
 # Additional flags
 
-`./gen_qr.py --help`
+Thanks to the argparse library, we have a nice list of flags handy:
+
+```
+./gen_qr.py --help
 
 usage: gen_qr.py [-h] [-o OUTPUT] [--logo-size LOGO_SIZE] [--qr-color QR_COLOR] [--logo-backg-color LOGO_BACKG_COLOR]
                  [--backg-color BACKG_COLOR] [--border-color BORDER_COLOR]
                  url logo_svg
 
 Generate SVG QR code with embedded SVG logo.
+
 
 positional arguments:
   url                   URL or text to encode
@@ -52,3 +56,4 @@ options:
                         SVG QR code background color
   --border-color BORDER_COLOR
                         SVG QR code border color
+```
