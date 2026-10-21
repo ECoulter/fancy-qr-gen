@@ -15,11 +15,12 @@ Versions are probably flexible, but I used `pip freeze` to generate `requirement
 * `git clone https://github.com/ECoulter/fancy-qr-gen`
 * `cd fancy-qr-gen`
 * `python -m venv ./logo-gen`
-* `pip install -r ./requirements.txt``
-* `source ./logo-gen/bin/activate``
+* `pip install -r ./requirements.txt`
+* `source ./logo-gen/bin/activate`
 
-#Usage
-* `source ./logo-gen/bin/activate``
+# Usage
+
+* `source ./logo-gen/bin/activate`
 * Grab a logo: `wget https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg`
 * `./gen_qr.py 'https://github.com/ECoulter/fancy-qr-gen' "./Octicons-mark-github.svg" -o Example_QR.svg --qr-color "#051E39" --border-color "#B39051" --logo-backg-color "#000000" --backg-color "#000000"`
 
